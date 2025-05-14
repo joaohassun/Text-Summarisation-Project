@@ -1,4 +1,7 @@
 # Text-Summarisation-Project
+
+This repository contains the code and executive summary for a group project conducted in the *Generative AI and AI Applications* module as part of the Master's in Business Analytics at the University of Warwick.
+
 Generative artificial intelligence (AI) offers a powerful solution for condensing complex financial documents into coherent, accessible summaries. This project explores the application of a domain-specific summarisation model fine-tuned on the EDGAR-CORPUS Financial Summarization dataset, which includes U.S. Securities and Exchange Commission (SEC) filings paired with expert-written summaries. Using Low-Rank Adaptation (LoRA) for parameter-efficient fine-tuning, the model demonstrated consistent learning improvements—reducing training loss from 4.48 to 3.55 and validation loss from 4.15 to 3.29. Final performance yielded a BERTScore F1 of 0.82, reflecting strong semantic alignment with reference summaries.
 
 The summariser produces variable-length outputs in either bullet-point or paragraph form, retaining financial terminology and numerical fidelity while enhancing readability. It performed well in summarising lengthy documents such as 10-K filings, streamlining financial analysis and improving accessibility for stakeholders including investors, analysts, and regulatory professionals.
